@@ -42,7 +42,7 @@ Each participant should research and produce a report about one of the following
 - "Darkhotel"
 
 The report should contain information about the
-threat actor's TTPs, known victims/attacks, motivations or similar (500 words or more).
+threat actor's TTPs, known victims/attacks, motivations or similar (512 words or more).
 
 Send as plain text, Markdown document or PDF to:
 **[courses+ti_010501@%EMAIL_DOMAIN%](mailto:courses+ti_010501@%EMAIL_DOMAIN%)**
