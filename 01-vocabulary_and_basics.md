@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Vocabulary and basics"
@@ -112,9 +112,15 @@ The attack surface may not look the same to all threat actors.
 
 Describes behavior of a threat actor.  
 
-Used together with target analysis and other indicators for attribution.
+Used together with target analysis
+and other indicators for
+threat actor attribution.
 
 ![bg right:30%](images/01-cyborg.jpg)
+
+<!--
+https://www.splunk.com/en_us/blog/learn/ttp-tactics-techniques-procedures.html
+-->
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Fibreman (CC0 1.0)" -->
@@ -123,7 +129,7 @@ Used together with target analysis and other indicators for attribution.
 **I**ntegrity and
 **A**vailability.  
 
-Thought tool that can be used to discuss priorities, expected outcome of changes and similar. 
+Thought-tool that can be used to discuss priorities, expected outcome of changes and similar. 
 
 ![bg right:30%](images/01-laser.jpg)
 

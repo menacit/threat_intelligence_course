@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Introduction to threat actors"
@@ -136,6 +136,10 @@ Used knowledge to disrupt operations at former employer.
 
 ![bg right:30%](images/03-80s_room.jpg)
 
+<!--
+https://www.bleepingcomputer.com/news/security/fired-admin-cripples-former-employers-network-using-old-credentials/
+-->
+
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Asparukh Akanayev (CC BY 2.0)" -->
 ## FIN7
@@ -192,7 +196,9 @@ Spies on various targets of interest to the government.
 ## Equation Group
 Threat actor associated with NSA.  
 
-Famous for malware such as "Stuxnet" and "Flame".
+Famous for malware such as "Stuxnet" and "Flame".  
+  
+Targets adversaries of the USA.
 
 ![bg right:30%](images/03-missile_computer.jpg)
 
@@ -201,7 +207,7 @@ Famous for malware such as "Stuxnet" and "Flame".
 ## Sandworm
 Unit of the Russian military intelligence service.  
 
-Known for disruptive attacks against the Olympic Games and the Ukrainian power grid.
+Known for disruptive attacks against the Olympic Games and Ukrainian infrastructure.
 
 ![bg right:30%](images/03-missile_computer.jpg)
 

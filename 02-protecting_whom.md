@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Protecting whom?"
@@ -50,7 +50,8 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
 ## Understanding the organisation
-Resources (time, money and smart people) are always limited.  
+Resources (time, money and smart people)
+are always limited.  
 
 How do we best spend them?
 
@@ -119,7 +120,7 @@ Just one of the ways you can wield the CIA triad.
 - Intellectual property (code, product schematics, etc)
 - Large number of eyeballs
 - Computing resources and bandwidth
-- Embarrassing e-mails
+- Embarrassing documents/e-mails
 
 ...
 
@@ -127,6 +128,7 @@ Just one of the ways you can wield the CIA triad.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
-### Could we be used as a stepping stone?
+**Could we be used as
+a stepping stone?**
 
 ![bg right:30%](images/02-minerals.jpg)

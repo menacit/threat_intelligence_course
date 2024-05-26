@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Introduction"
@@ -70,6 +70,12 @@ Learn what to look for when monitoring systems and performing incident response.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
+Targeting and fine-tuning communication about threats.  
+
+![bg right:30%](images/00-globe.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
 **Satisfy our curiosity!**
 
 ![bg right:30%](images/00-globe.jpg)
@@ -78,7 +84,6 @@ Learn what to look for when monitoring systems and performing incident response.
 <!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
 ## Requires basic knowledge of...
 - OS and application management
-- Python programming
 - Networking
 
 ![bg right:30%](images/00-toolbox.jpg)
