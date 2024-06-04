@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Communication targeting exercise"
@@ -39,12 +39,12 @@ Participants are split into groups.
   
 Groups should research the
 "Colonial Pipeline ransomware attack"
-and produce a targeted report **for each** of the following roles (three in total):
+and produce a targeted report for **one** of the following recipients:
 - CEO at large sewage treatment plant
 - Technical CISO at pharmaceutical factory
 - SOC operator at small MSSP
 
-Send as plain text, Markdown document or PDF to:
+After presentation, send as plain text, Markdown document or PDF to:
 **[courses+ti_011601@%EMAIL_DOMAIN%](mailto:courses+ti_011601@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/16-factory.jpg)

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Software supply chain"
@@ -35,7 +35,17 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-**No one builds software from scratch.**
+No one builds computers from scratch.  
+
+Relies on a highly interconnected
+and globalized supply chain. 
+
+![bg right:30%](images/18-punch_tape.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+**Likewise,
+no one builds software from scratch.**
 
 ![bg right:30%](images/18-punch_tape.jpg)
 
@@ -70,16 +80,48 @@ $ grep \
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
+## XZ Utils backdoor
+Freely available code library for handling
+LZMA data compression ("liblzma").  
+
+Great example of something (boring) that
+people wanna avoid writing from scratch.  
+
+Included in countless code-bases
+(both proprietary and open-source),
+for example **systemd**...
+
+![bg right:30%](images/18-gas_mask.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
+## XZ Utils backdoor
+In March of 2024, malicious code was
+detected in the software library that
+targeted the widely deployed
+OpenSSH server process.  
+
+The code introduced a backdoor,
+allowing attackers with a secret key
+to remotely access the vulnerable system.  
+
+The backdoor code was included by one of
+the maintainers of XZ Utils.
+
+![bg right:30%](images/18-gas_mask.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fredrik Rubensson (CC BY-SA 2.0)" -->
 ## Log4Shell
 Vulnerability in popular Java logging library
 "Log4j" (CVE-2021-44228).  
 
 Could be exploited by injecting code in messages that were logged (CVSS 10.0).  
 
-![bg right:30%](images/18-gas_mask.jpg)
+![bg right:30%](images/18-log_on_log.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fredrik Rubensson (CC BY-SA 2.0)" -->
 ## Log4Shell
 Affected countless of organisations.  
   
@@ -88,7 +130,7 @@ Many victims weren't aware they were using it.
 Log4j was developed by a small group of
 non-paid volunteers.
 
-![bg right:30%](images/18-gas_mask.jpg)
+![bg right:30%](images/18-log_on_log.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
@@ -117,7 +159,7 @@ Your security depends on the security of your dependencies and their developers'
 Term used in physical manufacturing. Describes components (and suppliers) required for a build.  
 
 Several competing standards exist,
-like [CycloneDX](https://xkcd.com/2347/) and [SPDX](https://spdx.dev/).  
+like [CycloneDX](https://cyclonedx.org/) and [SPDX](https://spdx.dev/).  
 
 Also useful for license compliance.
   
@@ -127,7 +169,14 @@ Tools exist to generate SBOMs using source code analysis and guesstimation.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-**In the end of the day,**
-**it's all a cost-benefit gamble.**
+Should I really depend on
+third-party code?  
+  
+In the end of the day,
+it's all a cost-benefit gamble.  
+
+Automated dependency monitoring,
+[OpenSSF Scorecard](https://openssf.org/projects/scorecard/) reviews and
+similar efforts can minimize the risk.
 
 ![bg right:30%](images/18-punch_tape.jpg)

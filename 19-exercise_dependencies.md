@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Dependency tracking exercise"
@@ -36,8 +36,9 @@ style: |
 <!-- _footer: "%ATTRIBUTION_PREFIX% Wolfgang Stief (CC0 1.0)" -->
 ## Exercise: Dependency tracking
 To the best of your abilities,
-identify and document third-party software modules required to build and run the 
-[official Gophish container image](https://github.com/gophish/gophish/blob/master/Dockerfile).
+identify and document third-party
+dependencies (both direct and indirect)
+required to run the automation tool ["Ansible"](https://github.com/ansible/ansible).
 
 Send as plain text, Markdown document or PDF to:
 **[courses+ti_011901@%EMAIL_DOMAIN%](mailto:courses+ti_011901@%EMAIL_DOMAIN%)**

@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Course midpoint"
@@ -72,6 +72,6 @@ Report about real events to real people.
   
 Take the chance to be a bit --verbose!  
   
-**[courses+ti_012101@%EMAIL_DOMAIN%](mailto:courses+ti_012101@%EMAIL_DOMAIN%)**
+**[courses+ti_012001@%EMAIL_DOMAIN%](mailto:courses+ti_012001@%EMAIL_DOMAIN%)**
 
 ![bg right:30%](images/20-red_plants.jpg)
