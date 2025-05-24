@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Introduction"
@@ -45,9 +45,14 @@ Segue: In this course we'll talk about threat intelligence...
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Asparukh Akanayev (CC BY 2.0)" -->
 ## What we will cover
-What threat intelligence is and how it can be utilized to protect individuals/organisations.
+What threat intelligence is and how it can be
+utilized to protect individuals/organisations.
 
 ![bg right:30%](images/00-abstract_stairs.jpg)
+
+<!--
+Segue: Let's try to break this down...
+-->
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
@@ -58,19 +63,29 @@ Learn to adapt and keep up with the attackers.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
-Perform more realistic security exercises and assessments.
+Perform more realistic security
+exercises and assessments.
 
 ![bg right:30%](images/00-globe.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
-Learn what to look for when monitoring systems and performing incident response.  
+Learn what to look for when monitoring
+IT systems and performing incident response.  
 
 ![bg right:30%](images/00-globe.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
-Targeting and fine-tuning communication about threats.  
+Targeting and fine-tuning communication about
+threats towards different recipients.  
+
+![bg right:30%](images/00-globe.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
+Adapt efforts based on changes in
+compliance rules and regulations.
 
 ![bg right:30%](images/00-globe.jpg)
 
@@ -87,6 +102,14 @@ Targeting and fine-tuning communication about threats.
 - Networking
 
 ![bg right:30%](images/00-toolbox.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Joel Rangsmo (CC BY-SA 4.0)" -->
+The primary focus of this course is to
+change your way of thinking, not dig
+deep into exciting technical details.
+
+![bg right:30%](images/00-face_statue_on_stone_with_moss.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kevin Dooley (CC BY 2.0)" -->
@@ -112,10 +135,12 @@ Targeting and fine-tuning communication about threats.
 -->
 
 ---
-For detailed notes, glossary, labs and similar, see:   
-**[%RESOURCES_DOMAIN%/ti.zip](https://%RESOURCES_DOMAIN%/ti.zip)**.  
+For slides, notes and glossary,
+see: **[%RESOURCES_DOMAIN%/ti.zip](https://%RESOURCES_ARCHIVE%)** .  
   
-These resources should be seen as a complement to an instructor lead course, not a replacement.
+These should be seen as a
+complement to an instructor
+lead course, not a replacement.
 
 ![bg right 90%](qr_codes/presentation_zip.link.svg)
 
@@ -150,7 +175,7 @@ The course wouldn't be available if it wasn't for financial support - Thanks!
 Is anything unclear? Got ideas for improvements? Don't fancy the animals in the slides?  
   
 Create an issue or submit a pull request to
-[the repository on Github](https://github.com/menacit/threat\_intelligence\_course)!
+[the repository on Github](https://github.com/menacit/threat_intelligence_course)!
 
 ![bg right:30%](images/00-eagle.jpg)
 

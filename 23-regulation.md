@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Rules and regulations"
@@ -141,7 +141,7 @@ and other forms of punishment.
 **I**ntigritetsskydds**my**ndigheten
 (previously called **D**ata**i**nspektionen) is the DPA.  
 
-~120 employees, slowly growing.
+~130 employees, slowly growing.
 
 | Year | Fees in SEK | Number of fees |
 |------|-------------|----------------|
@@ -150,6 +150,7 @@ and other forms of punishment.
 | 2020 | 150 000 000 | 15             |
 | 2021 | 32 500 000  | 7              |
 | 2022 | 9 720 000   | 4              |
+| 2023 | 120 400 000 | 11             |
 
 
 ![bg right:30%](images/23-chip.jpg)
@@ -262,7 +263,10 @@ and (aero)space.
 Is our organization providing
 services critical to society?  
   
-Well, that's up to the sector regulator.
+Well, that's up to the sector regulator.  
+
+NIS2 does however provide much
+clearer guidance for selection.
 
 ![bg right:30%](images/23-tower.jpg)
 
