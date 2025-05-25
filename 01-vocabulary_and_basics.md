@@ -131,6 +131,30 @@ a (compromised) application/container.
 ![bg right:30%](images/01-radar.jpg)
 
 ---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Yana Sychikova (CC BY 4.0)" -->
+Let's try putting these
+terms to use, shall we?
+
+![bg right:30%](images/01-nanoart_crystallites_lightning.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Yana Sychikova (CC BY 4.0)" -->
+A **threat actor** known as _Grumpy Bear_
+enumerated the **attack surface** of
+our Internet exposed systems.
+  
+They identified a **vulnerability** in
+one of our **assets**: the VPN server
+provided by _UltraEnterPriseSec Inc_.
+  
+They utilized a publicly available
+**exploit** from [_Metasploit_](https://www.metasploit.com/) in their
+**attack**, based on information
+provided by the system logs.
+
+![bg right:30%](images/01-nanoart_crystallites_lightning.jpg)
+
+---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Gobi (CC BY 2.0)" -->
 ## TTPs
 Describes (known historic) behavior
