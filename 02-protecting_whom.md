@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Protecting whom?"
@@ -55,20 +55,27 @@ are always limited.
 
 How do we best spend them?
 
+Spoiler alert: _"It depends!"_
+
 ![bg right:30%](images/02-eye.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
-What ensures the organisations survival (income, political support, legal permits, etc)?
-
+What ensures the organisations survival
+(income, political support, legal permits, etc)?
+  
 What are their worst nightmares?
 "Extinction level events?"
+  
+How have other similar organisations
+been affected by breaches/incidents?
 
 ![bg right:30%](images/02-eye.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
-What are the organisations priorities?  
+What are the organisations priorities
+from a security perspective?  
 
 Let's use the CIA triad to get an idea!
 
@@ -80,7 +87,7 @@ Stores and processes highly sensitive information about patients.
 
 Leakage of healthcare data would harm patient trust and may have legal repercussions.  
 
-Short-term inaccesbility of computer systems would be a nuisance, but likely manageable.
+Short-term inaccessibility of computer systems would be a nuisance, but likely manageable.
 
 ![bg right:30%](images/02-cia_psychotherapy.png)
 
@@ -128,7 +135,15 @@ Just one of the ways you can wield the CIA triad.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Reid Campbell (CC0 1.0)" -->
-**Could we be used as
-a stepping stone?**
+Could we be used as a stepping stone?
+
+The "Target retail breach" is
+an interesting example.
 
 ![bg right:30%](images/02-minerals.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Pyntofmyld (CC BY 2.0)" -->
+## Conclusions?
+
+![bg right:30%](images/02-bird.jpg)

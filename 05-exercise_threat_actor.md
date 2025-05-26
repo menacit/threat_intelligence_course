@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Threat actor write-up exercise"
@@ -38,7 +38,7 @@ style: |
 ### Exercise: Threat actor report
 Each participant should research and produce a report about one of the following threat actors:
 - "Ember Bear"
-- "Lapsus$"
+- "Lapsus\$"
 - "Darkhotel"
 
 The report should contain information about the

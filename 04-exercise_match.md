@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Threat actor matching exercise"
@@ -40,7 +40,7 @@ Participants are split into groups.
   
 Each group will be provided with descriptions of fictional organisations and threat actors.  
 
-For each organisation, motivate and rank (1 to 5) their needs using the CIA triad.
+For each organisation, motivate and define their priorities/needs using the CIA triad.
 
 For each threat actor, motivate and rank (1 to 5) how "attractive" each target organisation is.
 
@@ -70,38 +70,40 @@ Active in the Central Asia region.
 ![bg right:30%](images/04-bubbles.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Pyntofmyld (CC BY 2.0)" -->
 ## Org: XMPLE Prospecting Inc.
 Needs/security priorities based on CIA triad.
 
-### Confidentiality: 5
+### Confidentiality
 The organisation makes money by selling highly valuable information.
+
 Customers pay for the advantage, value proposition fails otherwise.
 
-![bg right:30%](images/04-bubbles.jpg)
+![bg right:30%](images/04-example_cia_triad.png)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Pyntofmyld (CC BY 2.0)" -->
 ## Org: XMPLE Prospecting Inc.
 Needs/security priorities based on CIA triad.
 
-### Integrity: 3
+### Integrity
 Manipulation of collected data/simulation models could result in misleading customers.
-Long-term, this may result in a loss of credability.
 
-![bg right:30%](images/04-bubbles.jpg)
+Long-term, this may result in a loss of credibility.
+
+![bg right:30%](images/04-example_cia_triad.png)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Pyntofmyld (CC BY 2.0)" -->
 ## Org: XMPLE Prospecting Inc.
 Needs/security priorities based on CIA triad.
 
-### Availability: 2
-While the organisation relies on computer systems to aid prospecting,
-its main strengths are expert knowledge and customer relations.
-Temporary inaccessibility of IT environment is not deemed a major business risk.
+### Availability
+While the organisation relies on computer systems
+to aid prospecting, its main strengths are expert
+knowledge and customer relations.
 
-![bg right:30%](images/04-bubbles.jpg)
+Temporary inaccessibility of IT environment
+is not deemed a major business risk.
+
+![bg right:30%](images/04-example_cia_triad.png)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Edenpictures (CC BY 2.0)" -->
@@ -146,14 +148,20 @@ How well does the organisation match the threat actors focus/interest?
 
 ### Savory Bear: 5
 Information produced by the target organisation may be of high value to the Russian state.
-Central Asia is perecived as their historical sphere of influence and large energy deposits
+Central Asia is perceived as their historical sphere of influence and large energy deposits
 could greatly change international interest in the region. Early access to the information
-could allow state-friendly actors to quickly exploit the resources and gain an edge/precense.
+could allow state-friendly actors to quickly exploit the resources and gain an edge/presence.
 
 ![bg right:30%](images/04-bubbles.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Edenpictures (CC BY 2.0)" -->
-**Bonus points for verbosity, group participation and fancy design!**
+Bonus points for verbosity,
+group participation and fancy design!
+
+Again: imagination is encouraged!
+  
+If you need a template of a triangle,
+checkout [this](resources/cia_triad_template.png) link.
 
 ![bg right:30%](images/04-staircase.jpg)

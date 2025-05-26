@@ -84,8 +84,9 @@ threats towards different recipients.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Steve Jurvetson (CC BY 2.0)" -->
-Adapt efforts based on changes in
-compliance rules and regulations.
+(Adapt efforts based on changes in
+compliance rules/regulations and
+advances in defensive technology)
 
 ![bg right:30%](images/00-globe.jpg)
 
@@ -108,6 +109,9 @@ compliance rules and regulations.
 The primary focus of this course is to
 change your way of thinking, not dig
 deep into exciting technical details.
+
+(don't worry, there will be some of
+those acronyms that you know and love)
 
 ![bg right:30%](images/00-face_statue_on_stone_with_moss.jpg)
 
@@ -135,8 +139,8 @@ deep into exciting technical details.
 -->
 
 ---
-For slides, notes and glossary,
-see: **[%RESOURCES_DOMAIN%/ti.zip](https://%RESOURCES_ARCHIVE%)** .  
+For slides, notes and similar,
+see: **[%RESOURCES_DOMAIN%/ti.zip](%RESOURCES_ARCHIVE%)** .  
   
 These should be seen as a
 complement to an instructor
