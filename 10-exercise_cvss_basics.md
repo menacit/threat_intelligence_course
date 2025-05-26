@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: CVSS basics exercise"
@@ -39,7 +39,7 @@ Participants are split into groups.
   
 Each group will be provided with five CVE IDs and
 their descriptions. Based on the descriptions,
-[calculate CVSS 3.1 base scores](https://www.first.org/cvss/calculator/3.1).  
+[calculate CVSS 4.0 base metrics](https://www.first.org/cvss/calculator/4-0).  
 
 Guesstimation/basic research may be required.  
   

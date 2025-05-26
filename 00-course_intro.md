@@ -21,12 +21,6 @@ style: |
   section.center {
     text-align: center;
   }
-  table strong {
-    color: #d63030;
-  }
-  table em {
-    color: #2ce172;
-  }
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Charles Hoisington, GSFC (CC BY 2.0)" -->

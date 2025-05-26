@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Extending CVSS"
@@ -29,45 +29,41 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Mendes (CC BY-SA 2.0)" -->
 ## Advanced CVSS usage
-### Temporal and environmental metrics
+### Beyond the base metrics
 
 ![bg right:30%](images/11-arecibo.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Mendes (CC BY-SA 2.0)" -->
 ## The problem
-In practice, the urgency to mitigate a vulnerability may change over time.  
+In practice, the urgency to mitigate a
+vulnerability may change over time.  
 
-Is it just theoretically exploitable or are there public Metasploit modules circulating?  
+Is it just theoretically exploitable or
+are there public Metasploit modules?  
 
-Are there any factors that affect the severity for my particular usecase?
-
-![bg right:30%](images/11-arecibo.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Mendes (CC BY-SA 2.0)" -->
-The **temporal** and **environmental** scores exist to solve the problem.
+Are there any factors that affect the
+severity based on my particular usecase?
 
 ![bg right:30%](images/11-arecibo.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Mendes (CC BY-SA 2.0)" -->
-# Let there be demos!
+<!-- _footer: "%ATTRIBUTION_PREFIX% Adam Lusch (CC BY-SA 2.0)" -->
+The **supplemental**, **environmental**
+and **threat** metrics are available
+to tweak the calculated score!
 
-![bg right:30%](images/11-arecibo.jpg)
+![bg right:30%](images/11-abandoned_archway.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Adam Lusch (CC BY-SA 2.0)" -->
+## Let's take 'em for a spin!
+
+![bg right:30%](images/11-abandoned_archway.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Pedro Mendes (CC BY-SA 2.0)" -->
-## Taking it further
-FIRST provides a complementary tool called
-["The Exploit Prediction Scoring System" (EPSS)](https://www.first.org/epss/).  
-
-Uses ~~machine learning and voodoo magic~~
-sophisticated prediction models to guesstimate
-how likely it is that a flaw will be
-practically exploitable.  
-
-Currently provided as API with scores for all published CVEs. Use with caution.
+## Wrapping up
 
 ![bg right:30%](images/11-arecibo.jpg)
 

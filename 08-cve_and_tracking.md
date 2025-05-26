@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: CVE and vulnerability tracking"
@@ -35,65 +35,77 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
 ## Background
-Software has always contained bugs.  
-
-Some of those are exploitable.  
-
-Some software compontents are used in more than one product by more than one vendor.
-
-![bg right:30%](images/08-difference_engine.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-_Can vulnerability X be exploited in vendor Y's software?_  
-
-_Does our product have vulnerabilities similar to X?_  
-
-_Can our IDS/vulnerability scanner detect vulnerability X?_  
-
-![bg right:30%](images/08-difference_engine.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-## What are "CVE IDs"?
-Common Vulnerabilities and Exposures.  
+Software will always contain bugs.  
   
-Unique identifer assigned to vulnerabilities.  
-
-Developed and managed by MITRE since 1999.
-Over 200 000 flaws tracked in database so far.
-
-Defacto industry standard used to track and talk about vulnerabilities.
+Some of those are exploitable.  
+  
+Some software components are used in more
+than one product by more than one vendor
+(think popular libraries like [OpenSSL](https://www.openssl.org/)).
 
 ![bg right:30%](images/08-difference_engine.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Rod Waddington (CC BY-SA 2.0)" -->
+_Is vendor Y's software affected by vulnerability X?_  
+  
+_Does our product have vulnerabilities similar to X?_  
+  
+_Can our **I**ntrusion **D**etection **S**ystem
+identify attempts to exploit vulnerability X?_  
+  
+_Can our vulnerability scanner detect X?_
+
+![bg right:30%](images/08-mauritius.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Stig Nygaard (CC BY 2.0)" -->
+## What are "CVE IDs"?
+**C**ommon **V**ulnerabilities and **E**xposures.  
+  
+Unique identifier assigned to vulnerabilities.  
+
+Developed and managed by [MITRE](https://www.mitre.org/) since 1999.
+Over 280000 flaws registered in the database.
+
+Defacto industry standard used to track
+and talk about vulnerabilities.
+
+![bg right:30%](images/08-glowing_fish.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Stig Nygaard (CC BY 2.0)" -->
 **CVE-2022-47949**  
 
 "CVE-" + \$Year + \$Sequence number
 
-![bg right:30%](images/08-difference_engine.jpg)
+![bg right:30%](images/08-glowing_fish.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-CVE IDs are in either the reserved, published or rejected state.  
+<!-- _footer: "%ATTRIBUTION_PREFIX% Stig Nygaard (CC BY 2.0)" -->
+CVE IDs are in either the "reserved",
+"published" or "rejected" state.  
 
-At its core, a CVE entry contains a vulnerability description and a list of references.
+At its core, a CVE database entry contains
+a vulnerability description and optionally
+a list of references (external links).
 
-![bg right:30%](images/08-difference_engine.jpg)
+![bg right:30%](images/08-kullen.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Loco Steve (CC BY-SA 2.0)" -->
 ## How do I get one?
 CVE IDs are allocated/assigned by a
-CVE Numbering Authority (CNA).  
+**C**VE **N**umbering **A**uthority.  
 
-Each CNA is responsible for one or more vendors/products/software compontents.  
+Each CNA is responsible for one or more
+vendors/products/software components.  
 
-If software isn't covered by a CNA's scope, talk to a CNA-LR.
+If the software isn't covered by the
+scope of any existing CNA, talk to a
+CNA of **L**ast **R**esort (CNA-LR).
 
-![bg right:30%](images/08-difference_engine.jpg)
+![bg right:30%](images/08-big_ben.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Randy Adams (CC BY-SA 2.0)" -->
@@ -162,34 +174,182 @@ If software isn't covered by a CNA's scope, talk to a CNA-LR.
 ![bg right:30%](images/08-wizard.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-## Making 'em more useful
-Complementary information, such as severity ratings
-and known affected products (CPEs),
-is tracked in [NIST's NVD](https://nvd.nist.gov/).  
+<!-- _footer: "%ATTRIBUTION_PREFIX% Stig Nygaard (CC BY 2.0)" -->
+There are "extensions" to the CVE database
+that may be used to associate additional
+useful information to an identifier.
+  
+Some are created/managed by MITRE,
+others by third-parties.
 
-CISA's ["Known Exploited Vulnerabilities" (KEV)](https://www.cisa.gov/kev)
-lists vulnerabilities that are know to have
-been exploited by attackers.
+Let's have a look at the most common ones...
 
-![bg right:30%](images/08-difference_engine.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-Manually monitoring CVEs is time consuming.  
-
-Tools like [OpenCVE](https://www.opencve.io)
-can help you track and triage those relevant for your organisation.
-
-![bg right:30%](images/08-difference_engine.jpg)
+![bg right:30%](images/08-curly_purple.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-## Ain't all roses
-CNA is responsible for allocating CVE IDs and submitting description.  
+<!-- _footer: "%ATTRIBUTION_PREFIX% Egill Egilsson (CC BY 2.0)" -->
+**C**ommon **P**latform **E**numeration
+provides as structured/computer-readable
+format to describes which vendors, products
+and software versions are affected by a flaw.
+  
+`cpe:2.3:a:ivanti:endpoint_manager_mobile:12.5`
+  
+The [page about CPE on Wikipedia](https://en.wikipedia.org/wiki/Common_Platform_Enumeration) provides
+a decent explanation of the sub-fields.
 
+![bg right:30%](images/08-esbjerg.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Adam Lusch (CC BY-SA 2.0)" -->
+**C**ommon **W**eakness **E**numeration
+provides a list of common vulnerability
+types that may affect software/hardware.
+
+Similar to [OWASP Top Ten](https://owasp.org/www-project-top-ten/), but more generic.
+
+Useful as reference for flaw mitigation
+and to understand historic security
+challenges in codebase.
+
+Who could forget classics like
+[CWE-416 _(AKA "Use After Free")_](https://cwe.mitre.org/data/definitions/416.html) and
+[CWE-89 _(AKA "Improper Neutralization of Special Elements used in an SQL Command")_](https://cwe.mitre.org/data/definitions/89.html) ?!
+
+![bg right:30%](images/08-parallel_pipes.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% ESA (CC BY-SA 3.0 IGO)" -->
+The USA's **C**ybersecurity and
+**I**nfrastructure **S**ecurity **A**gency
+maintains two lists of CVE IDs that
+may be of particular interest.
+  
+The **K**nown **E**xploited **V**ulnerabilities
+list contains flaws that they've identified
+being actively exploited by threat actors.
+
+Fixing or mitigating vulnerabilities included
+in the list should be highly prioritized
+(great "signal-to-noise ratio").
+
+![bg right:30%](images/08-namib_desert.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Joel Rangsmo (CC BY-SA 4.0)" -->
+The organisation ["FIRST"](https://www.first.org/) provides
+the ["**E**xploit **P**rediction **S**coring **S**ystem"](https://www.first.org/epss/).  
+  
+Uses ~~machine learning and voodoo magic~~
+sophisticated prediction models to guesstimate
+how likely it is that a flaw will be
+practically exploitable.  
+  
+Currently provided as API with scores
+for all published CVEs. Use with caution.
+  
+(CISA has launched an alternative called
+["**L**ikely **E**xploited **V**ulnerabilities"](https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.41.pdf).)
+
+![bg right:30%](images/08-brick_wall_metal_stairs.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Stig Nygaard (CC BY 2.0)" -->
+We will cover the wide-spread
+**C**ommon **V**ulnerability **S**coring **S**ystem
+later during the course, don't worry...
+
+![bg right:30%](images/08-stevnsfort.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Andreas Swane (CC BY 2.0)" -->
+Manually monitoring CVEs is time-consuming.  
+
+Tools like [OpenCVE](https://www.opencve.io) can help you
+track/triage those relevant to your organisation.
+
+![bg right:30%](images/08-abandoned_power_plant_control.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Guilhem Vellut (CC BY 2.0)" -->
+Sounds amazing, doesn't it?
+  
+Spoiler alert: _it ain't all roses..._
+
+![bg right:30%](images/08-koto_greenhouse_dome.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Matthias Ripp (CC BY 2.0)" -->
+CNAs are responsible for allocating
+CVE IDs and submitting description to MITRE.  
+  
 Product vendors are often their own CNA.  
+  
+They may be unresponsive to reports.
+  
+They could be incentivised to
+procrastinate publication or polish
+descriptions to downplay the severity.
+  
+The ["NotCVE" project](https://notcve.org/about.html) attempts to
+provide an alternative. Will it succeed?
 
-Not all vulnerabilities get assigned an ID :-/
+![bg right:30%](images/08-regensburg.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Franz van Duns (CC BY-SA 4.0)" -->
+CVE IDs gets allocated and assigned
+to bugs/behaviors that are not
+security vulnerabilities.
+  
+Submitted by sloppy researches and
+hallucinating AI bots.
+  
+Developers may dispute bogus claims,
+but it's hard to get them removed
+from the CVE database.  
+  
+A common work-around is to become
+your own CNA to filter requests,
+like [the curl project did](https://daniel.haxx.se/blog/2024/01/16/curl-is-a-cna/).
+
+![bg right:30%](images/08-old_door_latch_and_lock.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Brocken Inaglory (CC BY-SA 3.0)" -->
+Some software projects don't wanna spend
+time on classifying whether a bug could
+be a security vulnerability or not.
+
+The Linux kernel team recently became
+their own CNA and simply assigns a
+CVE ID to each identified bug.
+  
+...thereby spamming the database
+with a bunch of non-flaws.
+
+![bg right:30%](images/08-yellowstone_falls.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Joel Rangsmo (CC BY-SA 4.0)" -->
+MITRE is mainly funded by the US government.
+
+Like many similar organisations, there have
+been significant uncertainty regarding
+their ability to continue operating.
+
+Furthermore, they've been failing to
+maintain the database and promptly
+allocate CVE IDs to CNAs.
+
+Alternatives have appeared, like
+[**EU**'s own **V**ulnerability **D**atabase](https://euvd.enisa.europa.eu/) and
+the [decentralised **G**lobal **CVE** system](https://gcve.eu/).
+
+![bg right:30%](images/08-rusty_shopping_basket_and_bike.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+## Conclusions?
 
 ![bg right:30%](images/08-difference_engine.jpg)
