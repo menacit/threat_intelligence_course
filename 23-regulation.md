@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Rules and regulations"
@@ -46,8 +46,11 @@ Let's talk a bit about
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Bruno Cordioli (CC BY 2.0)" -->
+## More specifically...
 - GDPR
 - NIS(2)
+- DORA
+- CRA
 - PSD2
 - FIPS
 - PCI DSS
@@ -61,8 +64,8 @@ Let's talk a bit about
 **G**eneral **D**ata **P**rotection **R**egulation.  
   
 Attempt to unify and strengthen privacy
-for individuals within the EU + EEA.  
-
+for individuals within the EU \+ EEA.  
+  
 Translate into member state law
 and enforced since 2018 by
 **D**ata **P**rotection **A**uthorities.
@@ -136,13 +139,20 @@ and other forms of punishment.
 ![bg right:30%](images/23-chip.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Yellowcloud (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bengt Nyman (CC BY 2.0)" -->
 ## Enforcement in Sweden
 **I**ntigritetsskydds**my**ndigheten
 (previously called **D**ata**i**nspektionen) is the DPA.  
+  
+\~150 employees, slowly growing.
+  
+How's it going?
 
-~130 employees, slowly growing.
+![bg right:30%](images/23-cg_16.jpg)
 
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bengt Nyman (CC BY 2.0)" -->
+## Official IMY statistics
 | Year | Fees in SEK | Number of fees |
 |------|-------------|----------------|
 | 2018 | 0           | 0              |
@@ -151,9 +161,19 @@ and other forms of punishment.
 | 2021 | 32 500 000  | 7              |
 | 2022 | 9 720 000   | 4              |
 | 2023 | 120 400 000 | 11             |
+| 2024 | 60 580 000  | 6              |
 
+![bg right:30%](images/23-cg_16.jpg)
 
-![bg right:30%](images/23-chip.jpg)
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Bengt Nyman (CC BY 2.0)" -->
+IMY has been criticized for its
+"lazy handling" of complaints.
+
+[On-going court case against](https://noyb.eu/en/noyb-takes-swedish-dpa-court-refusing-properly-deal-complaints) them
+by privacy interest group "noyb".
+
+![bg right:30%](images/23-cg_16.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Manfred Werner (CC BY-SA 3.0)" -->
@@ -219,22 +239,27 @@ For more examples and details, check out
   
 Aims to ensure availability of services and infrastructure critical to society.  
   
-Initially released in 2018, version 2
-shall be enforced by member states in 2024.
+Initially released in 2018, version 2 should
+be implemented by member states during 2024.
+
+As of 2025, Sweden is still working on
+fulfilling requirements through
+**"Cybersäkerhetslagen"**.
 
 ![bg right:30%](images/23-tower.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Todd Van Hoosear (CC BY-SA 2.0)" -->
 ## What does that mean?
-Organizations must structure and document their IT security efforts.  
+Organizations must structure and document
+their IT security efforts.  
 
 Security efforts must be
 _appropriate to the risk posed_,
 as interpreted by the **sector regulator**.
 
 If an incident occurs, it must be reported to
-the sector regulator within 6 hours. 
+the sector regulator within 6h, 12h... 
 
 Failure to comply can result in
 sanction fees (10 MSEK || 2% of revenue)
@@ -269,6 +294,42 @@ NIS2 does however provide much
 clearer guidance for selection.
 
 ![bg right:30%](images/23-tower.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Michael Garlick (CC BY-SA 2.0)" -->
+## DORA
+**D**igital **O**perational **R**esilience **A**ct.
+  
+EU regulation targeting "financial entities"
+(banks, insurance companies, investment firms,
+crowdfunding services, crypto exchanges, etc!).
+  
+More detailed requirements than NIS(2),
+for example regarding security testing.
+  
+Enforced since January 2025.
+
+![bg right:30%](images/23-leonardslee_gardens_man_statue.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Timothy J Toal (CC BY 4.0)" -->
+## CRA
+**C**yber **R**esilience **A**ct.
+  
+Aims to improve security of software
+and hardware products sold in the EU.
+  
+Requires that vendors understand
+and document their supply chain.
+
+Products should be
+"reasonably secure-by-default"
+and those "critical for security"
+must be audited by a third party.
+
+Expected enforcement by 2027.
+
+![bg right:30%](images/23-m2_mirror_and_cell.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kevin Dooley (CC BY 2.0)" -->
@@ -321,21 +382,33 @@ you need to comply.
 The ISO 27000-family of standards describes
 methods for organizations to structure
 their security efforts.  
-
-Identified risks must be
-evaluated, documented and acted upon.  
-
-Many organizations require that their vendors/partners are ISO 27001 certified.  
-
-SOC 2 is basically the equivalent thing in the USA.
+  
+Identified risks must be evaluated,
+documented and acted upon.  
+  
+No legal requirement, but many organizations
+require that vendors/partners are certified.  
+  
+SOC 2 is basically the equivalent thing in the USA,
+but with stricter/more expensive auditing.
 
 ![bg right:30%](images/23-ancient_stairs.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Jan Helebrant (CC0 1.0)"-->
+Many more out there, but hopefully
+you get the idea by now!
+
+_(IT / cyber security **VS** Information security)_
+
+![bg right:30%](images/23-observatory.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+## Wrapping up
 While rules/regulations serve different purposes,
 they warrant a response more often than not.  
 
 Especially since interpretation and enforcement may change over time.
 
-![bg right:30%](images/23-observatory.jpg)
+![bg right:30%](images/23-typewriter.jpg)

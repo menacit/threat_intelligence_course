@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Course midpoint"
@@ -51,18 +51,18 @@ style: |
 ![bg right:30%](images/20-red_plants.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Brendan J (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Eric Friedebach (CC BY 2.0)" -->
 ## What's next?
 Put your skills to the test.  
 
 Report about real events to real people.  
 
-\+ Some deep dives and guest lectures!
+\+ Some deep dives and hopefully guest lectures!
 
-![bg right:30%](images/20-red_plants.jpg)
+![bg right:30%](images/20-submarine_control_panel_lights.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Brendan J (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Der Keks (CC BY-SA 4.0)" -->
 ### Feedback, bitte!
 - What are your course highlights so far?
 - How would you re-balance the course? (less/more lectures, practical labs, etc.)
@@ -74,4 +74,4 @@ Take the chance to be a bit --verbose!
   
 **[courses+ti_012001@%EMAIL_DOMAIN%](mailto:courses+ti_012001@%EMAIL_DOMAIN%)**
 
-![bg right:30%](images/20-red_plants.jpg)
+![bg right:30%](images/20-air_balloon_burner.jpg)

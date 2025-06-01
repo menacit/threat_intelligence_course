@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: IoCs"
@@ -36,8 +36,13 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% M. Zamani, ESO (CC BY 2.0)" -->
 Threat intelligence is not just for humans.  
-
-Used to improve intrusion detection and prevention systems.
+  
+Especially observed behavior of attackers
+and their malware that we commonly call
+**I**ndicators **O**f **C**ompromise.
+  
+Used to improve (automated)
+**I**ntrusion **D**etection/**P**revention **S**ystems.
 
 ![bg right:30%](images/14-observatory.jpg)
 
@@ -59,7 +64,9 @@ Used to improve intrusion detection and prevention systems.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Jonathan Torres (CC BY 4.0)" -->
-Converted into configuration for firewalls, EDR agents, log servers, HIDS, WAFs, etc.
+Convert into configuration for firewalls,
+**E**nd-point **D**etection and **R**esponse agents,
+log alerting queries, e-mail spam filters, etc.
 
 ![bg right:30%](images/14-cyborg.jpg)
 
@@ -87,12 +94,19 @@ Converted into configuration for firewalls, EDR agents, log servers, HIDS, WAFs,
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Yellowcloud (CC BY 2.0)" -->
-Not all sharing is done in the open.  
-
-Information Sharing and
-Analysis Centers (ISACs) exist to support specific private/public sectors and interest areas.
+Pros/Cons with active/passive approaches?
  
 ![bg right:30%](images/14-chip_closeup.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Adam Lusch (CC BY-SA 2.0)" -->
+Not all sharing is done in the open.  
+
+**I**nformation **S**haring and **A**nalysis **C**enters
+exist to support specific private/public
+sectors and interest areas.
+ 
+![bg right:30%](images/14-surveying_equipment.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Miguel Discart (CC BY-SA 2.0)" -->
@@ -114,3 +128,33 @@ supports IoC import/export for common formats, such as STIX and YARA/Snort rules
  
 ![bg right:30%](images/14-triangles.jpg)
 
+<!--
+https://www.misp-project.org/communities/
+-->
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Fritzchens Fritz (CC0 1.0)" -->
+## Considerations and gotchas?
+ 
+![bg right:30%](images/14-chip_closeup_ryzen.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Cory Doctorow (CC BY-SA 2.0)" -->
+## Risks with sharing
+ 
+![bg right:30%](images/14-trunk_skeleton.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Chad Davis (CC BY-SA 2.0)" -->
+## Quality of data
+- False positives
+- Freshness of data
+- Collateral damage 
+ 
+![bg right:30%](images/14-razorwire_fence_lights.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% M. Zamani, ESO (CC BY 2.0)" -->
+## Wrapping up
+
+![bg right:30%](images/14-observatory.jpg)

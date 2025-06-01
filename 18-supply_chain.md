@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2024 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Software supply chain"
@@ -27,32 +27,35 @@ style: |
   }
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Axelspace Corporation (CC BY-SA 4.0)" -->
 ## Software supply chain
 ### Dependencies and imported risk
 
-![bg right:30%](images/18-punch_tape.jpg)
+![bg right:30%](images/18-suez_canal_satellite.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Axelspace Corporation (CC BY-SA 4.0)" -->
 No one builds computers from scratch.  
-
+  
 Relies on a highly interconnected
-and globalized supply chain. 
+and globalized supply chain.
+  
+Risk VS Reward.
 
-![bg right:30%](images/18-punch_tape.jpg)
+![bg right:30%](images/18-suez_canal_satellite.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Chris 73 (CC BY-SA 3.0)" -->
 **Likewise,
 no one builds software from scratch.**
 
-![bg right:30%](images/18-punch_tape.jpg)
+![bg right:30%](images/18-grey_archive_racks.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
 ## Example: Keycloak server
-Popular solution for identity and access management. Think user/group database.  
+Popular solution for identity and access
+management - an authentication service.  
 
 ```
 $ mvn clean install | tee build_output.txt
@@ -121,54 +124,58 @@ Could be exploited by injecting code in messages that were logged (CVSS 10.0).
 ![bg right:30%](images/18-log_on_log.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Fredrik Rubensson (CC BY-SA 2.0)" -->
-## Log4Shell
-Affected countless of organisations.  
+<!-- _footer: "%ATTRIBUTION_PREFIX% Kevin L Neff (CC BY 2.0)" -->
+Not just a problem affecting freely
+available open source libraries...
+
+![bg right:30%](images/18-propane_torch_soldering.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Nirvana Studios (CC BY 4.0)" -->
+## Root cause analysis
+The initial cost of including
+third-party libraries is near zero.  
   
-Many victims weren't aware they were using it.  
-
-Log4j was developed by a small group of
-non-paid volunteers.
-
-![bg right:30%](images/18-log_on_log.jpg)
-
----
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-## Understanding the problem(s)
-The initial cost of including third-party libraries is near zero.  
-
 Dependencies often have their own dependencies.  
+  
+Maintaining software over time ain't always
+the most fun/rewarding task, especially for free.  
+  
+Your security depends on the security of
+your dependencies and that of its developers.
 
-Maintaining software over time ain't always the most fun/rewarding task.  
-
-Your security depends on the security of your dependencies and their developers'.
-
-![bg right:30%](images/18-c64.jpg)
+![bg right:30%](images/18-installation_the_singularity.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
-# [XKCD #2347: Dependency](https://xkcd.com/2347/)
+<!-- _footer: "%ATTRIBUTION_PREFIX% Nirvana Studios (CC BY 4.0)" -->
+## [XKCD #2347: Dependency](https://xkcd.com/2347/)
 
-![bg right:30%](images/18-c64.jpg)
+![bg right:30%](images/18-installation_the_singularity.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Tobin (CC BY-SA 2.0)" -->
-## SBOM
-(Software) Bill of Materials.  
-
-Term used in physical manufacturing. Describes components (and suppliers) required for a build.  
-
+(**S**oftware) **B**ill **O**f **M**aterials.  
+  
+Term borrowed from physical manufacturing.
+Describes components (and their suppliers)
+required to assemble a product.  
+  
+Helps us understand what/who our software
+relies on and what/who we need to monitor.
+  
 Several competing standards exist,
 like [CycloneDX](https://cyclonedx.org/) and [SPDX](https://spdx.dev/).  
-
+  
 Also useful for license compliance.
   
-Tools exist to generate SBOMs using source code analysis and guesstimation.
+Tools exist to generate SBOMs using
+source code analysis and guesstimation.
 
 ![bg right:30%](images/18-pcb.jpg)
 
 ---
-<!-- _footer: "%ATTRIBUTION_PREFIX% Marcin Wichary (CC BY 2.0)" -->
+<!-- _footer: "%ATTRIBUTION_PREFIX% Axelspace Corporation (CC BY-SA 4.0)" -->
+## Conclusions
 Should I really depend on
 third-party code?  
   
@@ -179,4 +186,4 @@ Automated dependency monitoring,
 [OpenSSF Scorecard](https://openssf.org/projects/scorecard/) reviews and
 similar efforts can minimize the risk.
 
-![bg right:30%](images/18-punch_tape.jpg)
+![bg right:30%](images/18-suez_canal_satellite.jpg)
