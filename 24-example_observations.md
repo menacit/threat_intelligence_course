@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Example observations"
@@ -92,7 +92,6 @@ Let's take a look at some security related happenings and use what we've learned
 - Catalin Cimpanu reports that several Lemmy instances have been compromised using a zero-day
 - Patched within an hour after issue was reported
 - Unknown threat actor
-- Several severe vulnerabilities have been identified in Mastodon, a federated Twitter alternative
 
 ![bg right:30%](images/24-cubes.jpg)
 
