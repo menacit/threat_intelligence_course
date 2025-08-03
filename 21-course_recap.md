@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2023 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Course recap"
@@ -29,7 +29,7 @@ style: |
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kevin Dooley (CC BY 2.0)" -->
 # Course recap
-### Let's look back
+### Let's look back for a while
 
 ![bg right:30%](images/21-biosphere.jpg)
 
@@ -46,8 +46,10 @@ style: |
 <!-- _footer: "%ATTRIBUTION_PREFIX% Solarbotics (CC BY 2.0)" -->
 Learn to adapt and keep up with the attackers.  
 
-Perform more realistic security exercises and assessments.  
-
+Perform more realistic security exercises and assessments.
+  
+Invest in appropriate security controls.
+  
 Learn what to look for when monitoring systems and performing incident response.
 
 ![bg right:30%](images/21-robot.jpg)
@@ -77,8 +79,8 @@ Learn what to look for when monitoring systems and performing incident response.
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Tobin (CC BY-SA 2.0)" -->
-**Risk ~=**
-**Consequences of bad thing * Probability**.  
+Risk \~=
+Consequences of bad thing * Probability.  
 
 ![bg right:30%](images/21-teufelsberg.jpg)
 
@@ -105,9 +107,11 @@ Learn what to look for when monitoring systems and performing incident response.
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% The Preiser Project (CC BY 2.0)" -->
 ## Indicators of Compromise
-Used to improve intrusion detection and prevention systems.  
+Used to improve **I**ntrusion **D**etection /
+**P**revention **S**ystems and for attribution.  
 
-IP addresses, domain names, file hashes, URL paths, ...
+IP addresses, domain names, file hashes,
+URL paths, traffic patterns...
 
 ![bg right:30%](images/21-cleaning_hdd.jpg)
 
@@ -116,7 +120,10 @@ IP addresses, domain names, file hashes, URL paths, ...
 ## Tracking vulnerabilities
 **C**ommon **V**ulnerabilities and **E**xposures.  
   
-**C**ommon **V**ulnerability **S**coring **S**ystem.  
+**C**ommon **P**latform **E**numeration and  
+**C**ommon **W**eakness **E**numeration.
+  
+**C**ommon **V**ulnerability **S**coring **S**ystem.
   
 **K**nown **E**xploited **V**ulnerabilities.
 
@@ -129,11 +136,27 @@ IP addresses, domain names, file hashes, URL paths, ...
 
 **I**nfrastructure **a**s **C**ode,
 **C**onfiguration **M**anagement automation and 
-**C**ontinuous **D**eployment.  
-
-**S**oftware **B**ill **o**f **M**aterials and dependency tracking.
+**C**ontinuous **I**ntegration.  
+  
+Active scanning (_"Hacker's toolbox"_).
 
 ![bg right:30%](images/21-racks.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Maximilien Brice / CERN (CC BY-SA 3.0)" -->
+## Supply chain security
+Most applications utilize third-party
+code libraries for (boring) functionality.
+  
+May contain (intentional) vulnerabilities,
+backdoors and other malicious things.
+
+Utilize **S**oftware **B**ill **o**f **M**aterials files
+to keep track of dependencies.
+
+Auditing and risk management.
+
+![bg right:30%](images/21-cern_lhc_tunnel.jpg)
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Jesse James (CC BY 2.0)" -->
@@ -145,6 +168,28 @@ Target communication based on:
 - Bandwidth
 
 What do you think are the most important
-take-aways for _role X_?  
+take-aways for _role X_?
+  
+Using personas for targeting practice.
 
 ![bg right:30%](images/21-party.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% Lauri Veerde (CC BY-SA 4.0)" -->
+## Rules and regulations
+- GDPR
+- NIS(2)
+- DORA
+- CRA
+- PSD2
+- FIPS
+- PCI DSS
+- ISO 27K / SOC 2
+
+![bg right:30%](images/21-gas_boiler_warped_panorama.jpg)
+
+---
+<!-- _footer: "%ATTRIBUTION_PREFIX% SMTW.de (CC BY-SA 4.0)" -->
+**Everything clear?**
+
+![bg right:30%](images/21-bornhack_2021_drone_photo.jpg)

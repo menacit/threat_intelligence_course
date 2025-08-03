@@ -81,7 +81,7 @@ log alerting queries, e-mail spam filters, etc.
 ### Feeds (Passive)
 - [IPsum](https://github.com/stamparm/ipsum)
 - [Proofpoint's Emerging Threats](https://rules.emergingthreats.net)
-- [PhishTank](https://github.com/stamparm/ipsum)
+- [PhishTank](https://phishtank.org/)
 - [SSLBL](https://sslbl.abuse.ch/)
 - [disposable-email-domains](https://github.com/disposable-email-domains/disposable-email-domains)
 - [Greynoise's blocklist](https://www.greynoise.io)
