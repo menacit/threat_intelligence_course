@@ -28,7 +28,7 @@ style: |
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Kevin Stanchfield (CC BY 2.0)" -->
-## Example observations
+# Example observations
 
 ![bg right:30%](images/24-memory.jpg)
 

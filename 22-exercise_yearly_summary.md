@@ -60,7 +60,6 @@ Deadline: **%DEADLINE_E012201%**
 - Relevance
 - Analysis
 - Recommendations / "Actionability"
-- Report length
 
 ![bg right:30%](images/22-pcb.jpg)
 
