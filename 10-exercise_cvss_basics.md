@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: CVSS basics exercise"
@@ -77,13 +77,12 @@ by VAPI service.
 ```
 
 ---
-## CVE-2022-39945
+## CVE-2026-20674
 ```
-An improper access control vulnerability [CWE-284] in FortiMail 7.2.0,
-7.0.0 through 7.0.3, 6.4 all versions, 6.2 all versions, 6.0 all versions
-may allow an authenticated admin user assigned to a specific domain to
-access and modify other domains information via
-insecure direct object references (IDOR).
+A privacy issue was addressed by removing sensitive data.
+This issue is fixed in iOS 26.3 and iPadOS 26.3.
+An attacker with physical access to a locked device may
+be able to view sensitive user information.
 ```
 
 ---
@@ -95,12 +94,16 @@ OS commands via shell metacharacters in the login parameter.
 ```
 
 ---
-## CVE-2018-1000803
+## CVE-2024-45200
 ```
-Gitea version prior to version 1.5.1 contains a CWE-200 vulnerability
-that can result in Exposure of users private email addresses.
-This attack appear to be exploitable via Watch a repository to receive
-email notifications. Emails received contain the other recipients even
-if they have the email set as private. This vulnerability appears to
-have been fixed in 1.5.1.
+In Nintendo Mario Kart 8 Deluxe before 3.0.3, the LAN/LDN local multiplayer
+implementation allows a remote attacker to exploit a stack-based buffer overflow
+upon deserialization of session information via a malformed browse-reply packet,
+aka KartLANPwn. The victim is not required to join a game session with an attacker.
+The victim must open the "Wireless Play" (or "LAN Play") menu from the game's
+title screen, and an attacker nearby (LDN) or on the same LAN network as the victim
+can send a crafted reply packet to the victim's console. This enables a remote attacker
+to obtain complete denial-of-service on the game's process, or potentially,
+remote code execution on the victim's console. The issue is caused by incorrect use of
+the Nintendo Pia library.
 ```
