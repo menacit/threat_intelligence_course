@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Rules and regulations"
@@ -63,7 +63,7 @@ Let's talk a bit about
 ## GDPR
 **G**eneral **D**ata **P**rotection **R**egulation.  
   
-Attempt to unify and strengthen privacy
+Attempt to unify rules and strengthen privacy
 for individuals within the EU \+ EEA.  
   
 Translate into member state law
@@ -144,7 +144,7 @@ and other forms of punishment.
 **I**ntigritetsskydds**my**ndigheten
 (previously called **D**ata**i**nspektionen) is the DPA.  
   
-\~150 employees, slowly growing.
+\~160 employees, slowly growing.
   
 How's it going?
 
@@ -162,6 +162,7 @@ How's it going?
 | 2022 | 9 720 000   | 4              |
 | 2023 | 120 400 000 | 11             |
 | 2024 | 60 580 000  | 6              |
+| 2025 | 200 000     | 3              |
 
 ![bg right:30%](images/23-cg_16.jpg)
 
@@ -188,6 +189,10 @@ When (and if at all) this is okay is a
 constant back and forth.
 
 ![bg right:30%](images/23-schrems.jpg)
+
+<!--
+https://noyb.eu/en/us-supreme-court-just-blew-eu-us-data-transfers
+-->
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Johannes P1hde (CC BY 2.0)" -->
@@ -242,11 +247,14 @@ Aims to ensure availability of services and infrastructure critical to society.
 Initially released in 2018, version 2 should
 be implemented by member states during 2024.
 
-As of 2025, Sweden is still working on
-fulfilling requirements through
-**"Cybersäkerhetslagen"**.
+Implemented in Sweden through
+**"Cybersäkerhetslagen"** since Jan 2026.
 
 ![bg right:30%](images/23-tower.jpg)
+
+<!--
+https://www.ncsc.se/sv/radgivning-och-stod/cybersakerhetslagen-nis2/det-har-ar-cybersakerhetslagen/
+-->
 
 ---
 <!-- _footer: "%ATTRIBUTION_PREFIX% Todd Van Hoosear (CC BY-SA 2.0)" -->
@@ -319,8 +327,9 @@ Enforced since January 2025.
 Aims to improve security of software
 and hardware products sold in the EU.
   
-Requires that vendors understand
-and document their supply chain.
+Requires that vendors understand,
+document their supply chain and
+fix vulnerabilities swiftly.
 
 Products should be
 "reasonably secure-by-default"
