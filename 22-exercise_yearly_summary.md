@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Yearly summary exercise"
@@ -111,7 +111,7 @@ _Sales Director @ ExamPL CybSec_
 ## \#3: Krida Fahlo
 _SOC team leader @ Esimerkki Defense_
 
-- Works at company developing highly secret military equipment
+- Works at European company developing highly secret military equipment
 - Responsible for transferring security knowledge to team members and plan improvement efforts
 - Highly skilled, but need to delegate work
 - Interested defensive technologies and incidents affecting the defense sector

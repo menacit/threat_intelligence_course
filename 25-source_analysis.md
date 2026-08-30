@@ -1,5 +1,5 @@
 ---
-SPDX-FileCopyrightText: © 2025 Menacit AB <foss@menacit.se>
+SPDX-FileCopyrightText: © 2026 Menacit AB <foss@menacit.se>
 SPDX-License-Identifier: CC-BY-SA-4.0
 
 title: "Threat intelligence course: Source analysis"
@@ -150,8 +150,6 @@ Provides "hot-takes", "other perspectives"
 "interesting correlations"...
   
 Beware of their agenda, biases and funding.
-  
-(_Often used in **PS**ychological **OP**erations._)
 
 ![bg right:30%](images/25-cardboard_city_colors.jpg)
 
